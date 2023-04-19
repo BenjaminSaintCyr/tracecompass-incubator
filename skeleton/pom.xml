@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-   Copyright (C) {%year} {%copyright}
+   Copyright (C) 2022 École Polytechnique de Montréal
 
    All rights reserved. This program and the accompanying materials
    are made available under the terms of the Eclipse Public License 2.0
@@ -21,12 +21,16 @@
     <version>0.2.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>{%baseId}.{%dir}-parent</artifactId>
+  <artifactId>org.eclipse.tracecompass.incubator..-parent</artifactId>
   <packaging>pom</packaging>
 
-  <name>Trace Compass Incubator {%dir} Parent</name>
+  <name>Trace Compass Incubator . Parent</name>
 
   <modules>
+    <module>org.eclipse.tracecompass.incubator.kubernetes</module>
+    <module>org.eclipse.tracecompass.incubator.kubernetes.core</module>
+    <module>org.eclipse.tracecompass.incubator.kubernetes.core.tests</module>
+    <module>org.eclipse.tracecompass.incubator.kubernetes.ui</module>
     <!-- insert modules here -->
   </modules>
 
